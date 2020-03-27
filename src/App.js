@@ -32,7 +32,7 @@ function App() {
       <br />
       <br />
       <button className="pay-button" onClick={() => setShowPayment(true)}>
-        Pay
+        Pay in iFrame
       </button>
       {showPayment && (
         <div className="payment-modal" onClick={() => setShowPayment(false)}>
