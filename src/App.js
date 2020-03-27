@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 var postMessage = function(e) {
+  console.log("receive message");
   if (typeof e.data === "string") {
     try {
       var data = JSON.parse(e.data);
